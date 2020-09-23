@@ -28,6 +28,7 @@ public class Reservation extends JFrame implements Data {
     private JButton reservarButton;
     private JComboBox cbDocumentType;
     private JLabel lbRommCost;
+    private JButton integrantesButton;
     private JLabel lbAllCost;
 
     public Reservation() throws HeadlessException {
@@ -75,6 +76,12 @@ public class Reservation extends JFrame implements Data {
                 if (room.isPresent()){
                     lbRommCost.setText("$" + room.get().getPrice());
                 }
+            }
+        });
+        integrantesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null, "Integrantes:\n Santiago Amaya\n Oscar Gomez\n Nixon Sanchez");
             }
         });
     }
