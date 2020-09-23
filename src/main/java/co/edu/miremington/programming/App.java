@@ -3,7 +3,6 @@ package co.edu.miremington.programming;
 import co.edu.miremington.programming.data.Data;
 import co.edu.miremington.programming.entity.Room;
 import co.edu.miremington.programming.forms.Reservation;
-import co.edu.miremington.programming.forms.SalaryValidation;
 import org.apache.log4j.Logger;
 
 import javax.swing.*;
