@@ -7,8 +7,8 @@
 In order to start the project use:
 
 ```bash
-$ git clone https://github.com/uniremington-projects/wage-calculator.git
-$ cd wage-calculator
+$ git clone https://github.com/uniremington-projects/Hotel.git
+$ cd hotel
 # install the project's dependencies
 $ mvn clean package
 # to start the application run:
